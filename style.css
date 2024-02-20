@@ -84,7 +84,7 @@ form{
 
 input{
     width: 100%;
-    height: 4vw;
+    height: 4.5vw;
     padding-left: 1.7vw;
     background: #D6DADD;
     outline: none;
@@ -103,7 +103,7 @@ label{
     content: '';
     position: absolute;
     width: 1.5px;
-    height: 4vw;
+    height: 4.5vw;
     right: 4vw;
     bottom: 0;
     background: #AFAFAF;
@@ -501,6 +501,55 @@ textarea::placeholder{
 
     form > *:not(form){
         transform: scale(1.24);
+    }
+
+    .input-box1{
+        gap: 1vw;
+        margin-bottom: 3vw;
+    }
+
+    textarea::placeholder{
+        font-size: 1.8vw;
+    }
+
+    textarea{
+        margin-bottom: 3vw;
+    }
+    
+form h1{
+    font-size: 4vw;
+}
+
+form p{
+    font-size: 1.8vw;
+}
+
+form h2{
+    font-size: 4vw;
+    padding-bottom: 5vw;
+}
+
+.icons i{
+    font-size: 5vw;
+}
+}
+
+
+
+@media (max-width:450px) {
+
+    form{
+        margin-bottom: 60vw;
+    }
+    .input-box2{
+        width: 100%;
+        height: 26vw;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: flex-start;
+        align-items: center ;
+        gap: 1.5vw;
+
     }
 
     .input-box1{
